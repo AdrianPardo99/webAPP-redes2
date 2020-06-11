@@ -1,8 +1,6 @@
 
 <script src="/js/fonts.js" crossorigin="anonymous"></script>
 <link href="/css/font-awesome.css" media="all" rel="stylesheet">
-<link href="/css/font-awesome-min1.css" media="all" rel="stylesheet">
-<link href="/css/font-awesome-min2.css" media="all" rel="stylesheet">
 <link rel="stylesheet" type="text/css" href="/css/materialize.css">
 <script type = "text/javascript" src = "/js/jquery-3.4.1.min.js"></script>
 <script type = "text/javascript" src="/js/materialize.js"></script>
@@ -11,9 +9,9 @@
 </head>
 <body>
   <header>
-     <nav class="row deep-purple lighten-3 col s12 l12 m12">
+     <nav class="row grey darken-3 col s12 l12 m12">
        <div class="col s12 l12 m12 nav-wrapper">
-         <a href="#!" class="brand-logo center"><img src="/img/logoEscom.png" alt="" class="responsive-img" width="25%"></a>
+         <a href="#!" class="brand-logo center"><img src="/img/logoEscom2.png" alt="" class="responsive-img" width="15%"></a>
          <a href="#" data-target="mobile-demo" class="sidenav-trigger">
            <i class="fas fa-bars"></i>
          </a>
