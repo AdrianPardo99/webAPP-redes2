@@ -8,7 +8,7 @@ arr=($(echo $var | tr "\ " "\n"))
 strF=""
 for i in "${arr[@]}";do
   case $i in
-    css|js|font|iconfont|phpGral|img )
+    css|js|font|iconfont|phpGral|img|webfonts )
       continue
       ;;
     * )
