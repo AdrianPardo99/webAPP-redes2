@@ -13,6 +13,7 @@
     <br>
     <br>
     <?php include 'phpGral/cartas.php';?>
-
   </div>
-  <?php include 'phpGral/foot.php';?>
+  <?php include 'phpGral/foot.php';
+  /* Para ejecutar ssh via python es necesario hacerlo con sudo*/
+  ?>
