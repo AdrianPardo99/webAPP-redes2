@@ -9,6 +9,7 @@ path=$3
 file=$4
 out1=$(sudo rm ${path}* 2>/dev/null)
 pa=$(/var/www/html/tftp/scripts/script.sh $ip $port)
+sleep 3
 fileOr=$(ls $path)
 if [ ! -z $fileOr ];then
   sudo cp ${path}${fileOr} /var/www/html/tftp/conf-Files/$file

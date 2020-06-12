@@ -1,7 +1,7 @@
 <?php
     $arreglo = array();
     $var=trim($_POST["service"]);
-    if($var=="init_t"){
+    if($var==="init_t"){
       $cmdOut=shell_exec("sudo systemctl start tftp-server");
       if(empty($cmdOut)){
           $arreglo["resultado"] = 0;
@@ -10,7 +10,7 @@
         $arreglo["resultado"] = 1;
         $arreglo["mensaje"] = "Error en petici&oacuten: $var";
       }
-    }elseif ($var=="stop_t") {
+    }elseif ($var==="stop_t") {
       $cmdOut=shell_exec("sudo systemctl stop tftp-server.*");
       if(empty($cmdOut)){
           $arreglo["resultado"] = 0;
@@ -19,7 +19,7 @@
         $arreglo["resultado"] = 1;
         $arreglo["mensaje"] = "Error en petici&oacuten: $var";
       }
-    }elseif ($var=="restart_t"){
+    }elseif ($var==="restart_t"){
       $cmdOut=shell_exec("sudo systemctl restart tftp-server");
       if(empty($cmdOut)){
           $arreglo["resultado"] = 0;
@@ -28,7 +28,7 @@
         $arreglo["resultado"] = 1;
         $arreglo["mensaje"] = "Error en petici&oacuten: $var";
       }
-    }elseif ($var=="status_t"){
+    }elseif ($var==="status_t"){
       $cmdOut=shell_exec("sudo systemctl status tftp-server | grep Active");
       $arreglo["resultado"] = 0;
       $arreglo["mensaje"] = "Status service<br>Log: $cmdOut";
