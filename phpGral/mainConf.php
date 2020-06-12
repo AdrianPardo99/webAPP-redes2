@@ -13,17 +13,17 @@
         <tr>
           <td>TFTP</td>
           <td>UDP/69</td>
-          <td><a href="/tftp/" class="waves-effect waves-light btn"><i class="material-icons">settings</i></a></td>
+          <td><a href="/tftp/" class="waves-effect waves-light btn deep-purple darken-4 pulse"><i class="material-icons">settings</i></a></td>
         </tr>
         <tr>
           <td>DNS</td>
           <td>(TCP/UPD)/53</td>
-          <td><a href="/dns/" class="waves-effect waves-light btn"><i class="material-icons">settings</i></a></td>
+          <td><a href="/dns/" class="waves-effect waves-light btn deep-purple darken-4 pulse"><i class="material-icons">settings</i></a></td>
         </tr>
         <tr>
           <td>DHCP</td>
           <td>UDP/(67-Server/68-Cliente)</td>
-          <td><a href="/dhcp/" class="waves-effect waves-light btn"><i class="material-icons">settings</i></a></td>
+          <td><a href="/dhcp/" class="waves-effect waves-light btn deep-purple darken-4 pulse"><i class="material-icons">settings</i></a></td>
         </tr>
       </tbody>
     </table>

@@ -6,7 +6,7 @@
         <p class="grey-text text-lighten-4">Escuela Superior de C&oacutemputo</p>
       </div>
       <div class="col s6 l6 m6">
-        Contactanos: <br>
+        Contact us: <br>
         <div class="col l2 m2"></div>
         <div class="col l10 m10">
           <a href="mailto:mvaldezb1500@alumno.ipn.mx" class="white-text">Valdez Bernal Mar&iacutea Fernanda</a><br>
