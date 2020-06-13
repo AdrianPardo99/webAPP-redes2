@@ -43,31 +43,31 @@
   <div class="col l8 m12 s12">
     <center><h5>DHCP Config Dynamic IPs</h5></center>
     <form id="dhcp-server">
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="id-ip" name="id-ip" data-length="15" maxlength="15" required>
         <label for="id-ip" class="active">IP-Id</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="netmask-ip" name="netmask-ip" data-length="15" maxlength="15" required>
         <label for="netmask-ip" class="active">Netmask</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="router-ip" name="router-ip" data-length="15" maxlength="15" required>
         <label for="router-ip" class="active">IP-Router</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="dns-ip" name="dns-ip" data-length="15" maxlength="15" required>
         <label for="dns-ip" class="active">IP-DNS-Server or IP-Router</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="min-ip" name="min-ip" data-length="15" maxlength="15" required>
         <label for="min-ip" class="active">IP-Range-Init</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="last-ip" name="last-ip" data-length="15" maxlength="15" required>
         <label for="last-ip" class="active">IP-Range-Last</label>
       </div>
-      <div class="col s12 m6 s6">
+      <div class="col s12 m6 l6">
         <span onclick="firstDHCP();"><a href="#" class="waves-effect waves-light btn deep-purple darken-4 pulse"><i class="material-icons">keyboard_arrow_right</i></a></span>
       </div>
     </form>
@@ -79,31 +79,31 @@
   <div class="col l8 m12 s12">
     <center><h5>DHCP Config Static IP</h5></center>
     <form id="dhcp-server-static">
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="mac-ip-static" name="mac-ip-static" data-length="17" maxlength="17" minlength="17" required>
         <label for="mac-ip-static" class="active">MAC</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="ip-ip-static" name="ip-ip-static" data-length="15" maxlength="15" required>
         <label for="ip-ip-static" class="active">IP-Static</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="netmask-ip-static" name="netmask-ip-static" data-length="15" maxlength="15" required>
         <label for="netmask-ip-static" class="active">Netmask</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="router-ip-static" name="router-ip-static" data-length="15" maxlength="15" required>
         <label for="router-ip-static" class="active">IP-Router</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="dns-ip-static" name="dns-ip-static" data-length="15" maxlength="15" required>
         <label for="dns-ip-static" class="active">IP-DNS-Server or IP-Router</label>
       </div>
-      <div class="input-field col s12 m6 s6">
+      <div class="input-field col s12 m6 l6">
         <input type="text" class="validate" id="name-ip-static" name="name-ip-static" data-length="20" maxlength="20" required>
         <label for="name-ip-static" class="active">Hostname for the static IP </label>
       </div>
-      <div class="col s12 m6 s6">
+      <div class="col s12 m6 l6">
         <span onclick="serverDHCP();"><a href="#" class="waves-effect waves-light btn deep-purple darken-4 pulse"><i class="material-icons">keyboard_arrow_right</i></a></span>
       </div>
     </form>
@@ -118,11 +118,11 @@
         <textarea id="conf-file" name="conf-file" class="materialize-textarea" readonly></textarea>
         <label for="conf-file">Config file not editable</label>
       </div>
-      <div class="col s12 m6 s6">
+      <div class="col s12 m6 l6">
         <span onclick="saveDHCP();"><a href="#" class="waves-effect waves-light btn deep-purple darken-4 pulse" ><i class="material-icons">cloud_download</i></a></span>
       </div>
-      <div class="col s12 m6 s6">
-        <span onclick="loadDHCP();"><a href="#" class="waves-effect waves-light btn deep-purple darken-4 pulse" ><i class="material-icons">keyboard_arrow_right</i></a></span>
+      <div class="col s12 m6 l6">
+        <span onclick="loadDHCP();"><a href="#" class="waves-effect waves-light btn deep-purple darken-4 pulse" ><i class="material-icons">cloud_upload</i></a></span>
       </div>
     </form>
   </div>
