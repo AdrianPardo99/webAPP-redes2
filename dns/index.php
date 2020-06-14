@@ -49,7 +49,7 @@
        </div>
        <div class="input-field col s12 l6 m6">
          <input type="text" name="nameserver-dns" class="validate" data-length="30" maxlength="30" id="nameserver-dns" required>
-         <label for="nameserver-dns" class="active">Name for the domain service</label>
+         <label for="nameserver-dns" class="active">Name for the server</label>
        </div>
        <div class="col s12 l6 m6">
          <span onclick="fillDNS();"><a href="#" class="waves-effect waves-light btn deep-purple darken-4 pulse"><i class="material-icons">keyboard_arrow_right</i></a></span>
@@ -65,8 +65,8 @@
      <center><h5>Add host to DNS</h5></center>
      <form id="zoneDNS">
        <div class="input-field col s12 l6 m6">
-         <input type="text" name="zone-host-dns" class="validate" data-length="30" maxlength="30" id="zone-host-dns" required>
-         <label for="zone-host-dns" class="active">Name Host</label>
+         <input type="text" name="namehost-dns" class="validate" data-length="30" maxlength="30" id="namehost-dns" required>
+         <label for="namehost-dns" class="active">Name Host</label>
        </div>
        <div class="input-field col s12 l6 m6">
          <input type="text" name="ip-host-dns" class="validate" data-length="15" maxlength="15" id="ip-host-dns" required>
@@ -95,7 +95,7 @@
        </div>
        <div class="input-field col s12 l6 m6">
          <textarea id="inverse-conf-file" name="inverse-conf-file" class="materialize-textarea" readonly></textarea>
-         <label for="inverse-conf-file">Config file direct zone not editable</label>
+         <label for="inverse-conf-file">Config file direct inverse not editable</label>
        </div>
        <div class="col s12 m6 l6">
          <span onclick="saveDNS();"><a href="#" class="waves-effect waves-light btn deep-purple darken-4 pulse" ><i class="material-icons">cloud_download</i></a></span>
