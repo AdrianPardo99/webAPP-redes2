@@ -6,6 +6,17 @@ $TTL 86400
 		604800
 		86400
 )
-@	IN	NS	fedoraLocal.dns.local.
-fedoraLocal.dns.local.	IN	A	192.168.1.10
-vm	IN	A	192.168.2.10;
+@	IN	NS	fedora.dns.local.
+fedora.dns.local.	IN	A	192.168.1.10
+lan1.vpc1	IN	A	192.168.1.1;
+lan1.vpc2	IN	A	192.168.1.2;
+lan2.vpc1	IN	A	192.168.2.5;
+lan2.vpc2	IN	A	192.168.2.6;
+lan2.vm1	IN	A	192.168.2.10;
+lan3.vpc1	IN	A	192.168.3.40;
+lan3.vpc2	IN	A	192.168.3.41;
+lan3.vm1	IN	A	192.168.3.10;
+lan4.vpcOp1	IN	A	192.168.4.1;
+lan4.vpcOp2	IN	A	192.168.4.2;
+lan4.vm1	IN	A	192.168.4.10;
+lan4.vm2	IN	A	192.168.4.11;

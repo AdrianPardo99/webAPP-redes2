@@ -6,7 +6,7 @@
     </div>
     <div class="card-content">
       <span class="card-title">Valdez Bernal Mar&iacutea Fernanda</span>
-      <p>Miembro del equipo, desarrollador y dise&ntildeador del proyecto</p>
+      <p>Miembro del equipo, desarrolladora y dise&ntildeadora del proyecto</p>
     </div>
   </div>
 </div>
@@ -19,7 +19,7 @@
     </div>
     <div class="card-content">
       <span class="card-title">Valdez Esquivel Melani Betsabee</span>
-      <p>Miembro del equipo, desarrollador y dise&ntildeador del proyecto</p>
+      <p>Miembro del equipo, desarrolladora y dise&ntildeadora del proyecto</p>
     </div>
   </div>
 </div>

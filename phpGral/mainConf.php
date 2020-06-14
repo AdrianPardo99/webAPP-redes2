@@ -1,12 +1,13 @@
 <div class="col l2"></div>
 <div class="col l8 m12 s12">
     <center><p><span class="material-icons">work</span>Descripci&oacuten de la practica. <span class="material-icons">work</span></p></center>
+    <center><p>Aplicación administradora de servicios previamente instalados en un entorno UNIX, la cual corre en una distribuci&oacuten de RedHat Fedora 32 la cual fue modificada y puesta en marcha para presentar el siguiente proyecto con servicios de DHCP, DNS y TFTP para una topolog&iacutea en GNS3.</p></center>
     <table class="highlight centered responsive-table">
       <thead>
         <tr>
           <th>Servicio</th>
           <th>Transporte/Puerto</th>
-          <th>Acceso a</th>
+          <th>Acceso a servidor</th>
         </tr>
       </thead>
       <tbody>
